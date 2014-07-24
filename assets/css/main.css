@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: '8bit Wonder';
-    src: url('assets/fonts/8bitwonder.eot') format('embedded-opentype'), 
+    src: url('assets/fonts/8bitwonder.eot') format('embedded-opentype'),
     url("assets/fonts/8bitwonder.ttf") format('truetype'),
     url("assets/fonts/8bitwonder.woff") format('woff'),
     url("assets/fonts/8bitwonder.svg#8bitwonder") format('svg');
@@ -19,9 +19,10 @@
 
 @font-face { /* for non-IE */
     font-family: '8bit Wonder';
-    src: url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.ttf") format("truetype");
-    src: url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.woff") format('woff');
-    src: url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.svg#8bitwonder") format('svg');
+    src: url(http://:/) format("No-IE-404"), url('assets/fonts/8bitwonder.eot') format('embedded-opentype'),
+    url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.ttf") format("truetype"),
+    url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.woff") format('woff'),
+    url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.svg#8bitwonder") format('svg');
 }
 
 @font-face { /* for non-IE */
