@@ -1,39 +1,28 @@
 
 @font-face {
     font-family: '8bit Wonder';
-    src: url('assets/fonts/8bitwonder.eot') format('embedded-opentype'),
-    url("assets/fonts/8bitwonder.ttf") format('truetype'),
-    url("assets/fonts/8bitwonder.woff") format('woff'),
-    url("assets/fonts/8bitwonder.svg#8bitwonder") format('svg');
+    src: url('../fonts/8bitwonder.eot') format('embedded-opentype'),
+    url('../fonts/8bitwonder.ttf') format('truetype'),
+    url('../fonts/8bitwonder.woff') format('woff'),
+    url('../fonts/8bitwonder.svg#8bitwonder') format('svg');
 }
 
 @font-face {
     font-family: 'Pxlvetica';
-    src: url("assets/fonts/Pxlvetica.ttf");
+    src: url('../fonts/Pxlvetica.eot') format('embedded-opentype'),
+    url('../fonts/Pxlvetica.ttf') format('truetype'),
+    url('../fonts/Pxlvetica.woff') format('woff'),
+    url('../fonts/Pxlvetica.svg#Pxlvetica') format('svg');
 }
 
 @font-face {
     font-family: 'Munro';
-    src: url("assets/fonts/munro.ttf");
+    src: url('../fonts/munro.eot') format('embedded-opentype'),
+    url('../fonts/munro.ttf') format('truetype'),
+    url('../fonts/munro.woff') format('woff'),
+    url('../fonts/munro.svg#munro') format('svg');
 }
 
-@font-face { /* for non-IE */
-    font-family: '8bit Wonder';
-    src: url(http://:/) format("No-IE-404"), url('assets/fonts/8bitwonder.eot') format('embedded-opentype'),
-    url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.ttf") format("truetype"),
-    url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.woff") format('woff'),
-    url(http://:/) format("No-IE-404"), url("assets/fonts/8bitwonder.svg#8bitwonder") format('svg');
-}
-
-@font-face { /* for non-IE */
-    font-family: 'Pxlvetica';
-    src: url(http://:/) format("No-IE-404"), url("assets/fonts/Pxlvetica.ttf") format("truetype");
-}
-
-@font-face { /* for non-IE */
-    font-family: 'Munro';
-    src: url(http://:/) format("No-IE-404"), url("assets/fonts/munro.ttf") format("truetype");
-}
 
 body {
     background-color: #f2f2f2;
