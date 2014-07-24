@@ -1,9 +1,10 @@
 
 @font-face {
     font-family: '8bit Wonder';
-    src: url("assets/fonts/8bitwonder.ttf") format('truetype');
-    src: url("assets/fonts/8bitwonder.woff") format('woff');
-    src: url("assets/fonts/8bitwonder.svg#8bitwonder") format('svg');
+    src: url('assets/fonts/8bitwonder.eot') format('embedded-opentype'), 
+    url("assets/fonts/8bitwonder.ttf") format('truetype'),
+    url("assets/fonts/8bitwonder.woff") format('woff'),
+    url("assets/fonts/8bitwonder.svg#8bitwonder") format('svg');
 }
 
 @font-face {
